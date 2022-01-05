@@ -1,0 +1,252 @@
+/* Styling for landing page */
+
+/* RESET */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+/* Body */
+
+body {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* width: 710px; */
+  /* justify-content: center; */
+  /* margin-left: 200px;
+  margin-right: 200px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 1500px;
+}
+
+/* Header & Secion1 */
+
+.header, .section1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F2937;
+  padding: 10px 100px;
+  /* padding-right: 200px; */
+  
+}
+
+/* Header only */
+
+.left-links {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.right-links {
+  font-size: 18px;
+  margin-left: auto;
+  /* color: #E5E7EB; */
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+}
+
+.header li {
+  float: left;
+}
+
+.header a {
+  text-decoration: none;
+  color: #E5E7EB;
+  /* padding: 5px; */
+}
+
+/* Section 1 - website name, image, description, sign-up */
+
+.section1 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  gap: 40px;
+}
+
+.website-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.web-tag {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8
+}
+
+.section1 img {
+  width: 600px;
+  height: 225px;
+}
+
+.web-desc {
+  color: #E5E7EB
+}
+
+.section1 button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 25px;
+}
+
+/* Section 2 - four boxes and subtext */
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 40px 100px 70px 100px;
+  gap: 35px;
+}
+
+.section2-header {
+  font-weight: bolder;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.four-boxes-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 60px;
+  gap: 40px;
+}
+
+.section2 img {
+  width: 175px;
+  height: 175px;
+  /* border-color: #3882F6; */
+  border-radius: 6px;
+  /* border-width: 10px; */
+  border: 2px solid #3882F6;
+}
+
+.box-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin: 2px; */
+  width: 175px;
+  gap: 5px;
+}
+
+.box-subtext {
+  /* align-self: center; */
+  text-align: center;
+}
+/* Section 3 - quote */
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E5E7EB;
+  padding: 40px 100px 40px 100px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+  max-width: 800px
+}
+
+.quote-body {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quote-author {
+  font-weight: bold;
+  margin-left: auto;
+}
+/* Section 4 - sign-up  */
+
+.section4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  padding: 70px 100px;
+}
+
+.action-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #3882F6;
+  color: white;
+  padding: 30px 60px;
+  border-radius: 4px;
+  gap: 90px;
+}
+
+.action-header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.action-container button {
+  border: 1px solid white;
+  background-color: #3882F6;
+  padding: 4px 30px;
+  border-radius: 4px;
+  color: white; 
+}
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  font-size: 10px;
+  padding: 20px 100px;
+}
